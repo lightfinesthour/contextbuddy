@@ -85,7 +85,7 @@ if blob != "":
 # Check if the number of tokens is within the limits for various models
 if number_of_tokens < 2048:
     print("You can use any Model (20,048):")
-if number_of_tokens < 40096:
+if number_of_tokens < 4096:
     print("You can use any LLama2 model (4,096):")
 if number_of_tokens < 8192:
     print("You can use any LLama2 model (4,096):")
