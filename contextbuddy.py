@@ -88,7 +88,7 @@ if number_of_tokens < 2048:
 if number_of_tokens < 4096:
     print("You can use any LLama2 model (4,096):")
 if number_of_tokens < 8192:
-    print("You can use any LLama2 model (4,096):")
+    print("You can use any LLama2 model (8,192):")
 if number_of_tokens < 32768:
     print("You can use Mistral Models (32,768): ")
 if number_of_tokens < 131072:
